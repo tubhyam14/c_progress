@@ -9,10 +9,14 @@ int main()
 
     int temp = digit;
 
-    if (digit == 0) {
+    if (digit == 0)
+    {
         count = 1;
-    } else {
-        while (digit != 0) {
+    }
+    else
+    {
+        while (digit != 0)
+        {
             digit = digit / 10;
             count++;
         }
